@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Insurance Prediction</title>
+</head>
+<body>
+    <h1>Insurance Prediction</h1>
+    <form action="/predict" method="GET">
+        <div>
+            <label for="policy_tenure">Policy Tenure:</label>
+            <input type="number" name="policy_tenure" required>
+        </div>
+        <div>
+            <label for="age_car">Age of Car:</label>
+            <input type="number" name="age_car" required>
+        </div>
+        <div>
+            <label for="age_policyholder">Age of Policyholder:</label>
+            <input type="number" name="age_policyholder" required>
+        </div>
+        <div>
+            <label for="area_cluster">Area Cluster:</label>
+            <input type="number" name="area_cluster" required>
+        </div>
+        <div>
+            <label for="population_density">Population Density:</label>
+            <input type="number" name="population_density" required>
+        </div>
+        <div>
+            <label for="make">Make:</label>
+            <input type="number" name="make" required>
+        </div>
+        <div>
+            <label for="segment">Segment:</label>
+            <input type="number" name="segment" required>
+        </div>
+        <div>
+            <label for="fuel_type">Fuel Type:</label>
+            <input type="number" name="fuel_type" required>
+        </div>
+        <div>
+            <label for="engine_type">Engine Type:</label>
+            <input type="number" name="engine_type" required>
+        </div>
+        <div>
+            <label for="airbags">Airbags:</label>
+            <input type="number" name="airbags" required>
+        </div>
+        <div>
+            <label for="is_esc">Is ESC:</label>
+            <input type="number" name="is_esc" required>
+        </div>
+        <div>
+            <label for="is_adjustable_steering">Is Adjustable Steering:</label>
+            <input type="number" name="is_adjustable_steering" required>
+        </div>
+        <div>
+            <label for="is_tpms">Is TPMS:</label>
+            <input type="number" name="is_tpms" required>
+        </div>
+        <div>
+            <label for="is_parking_sensors">Is Parking Sensors:</label>
+            <input type="number" name="is_parking_sensors" required>
+        </div>
+        <div>
+            <label for="is_parking_camera">Is Parking Camera:</label>
+            <input type="number" name="is_parking_camera" required>
+        </div>
+        <div>
+            <label for="rear_brakes_type">Rear Brakes Type:</label>
+            <input type="number" name="rear_brakes_type" required>
+        </div>
+        <div>
+            <label for="displacement">Displacement:</label>
+            <input type="number" name="displacement" required>
+        </div>
+        <div>
+            <label for="cylinder">Cylinder:</label>
+            <input type="number" name="cylinder" required>
+        </div>
+        <div>
+            <label for="transmission_type">Transmission Type:</label>
+            <input type="number" name="transmission_type" required>
+        </div>
+        <div>
+            <label for="gear_box">Gear Box:</label>
+            <input type="number" name="gear_box" required>
+        </div>
+        <div>
+            <label for="steering_type">Steering Type:</label>
+            <input type="number" name="steering_type" required>
+        </div>
+        <div>
+            <label for="turning_radius">Turning Radius:</label>
+            <input type="number" name="turning_radius" required>
+        </div>
+        <div>
+            <label for="Length">Length:</label>
+            <input type="number" name="Length" required>
+        </div>
+        <div>
+            <label for="height">Height:</label>
+            <input type="number" name="height" required>
+        </div>
+        <div>
+            <label for="Gross_weight">Gross Weight:</label>
+            <input type="number" name="Gross_weight" required>
+        </div>
+        <div>
+            <label for="is_front_fog_lights">Is Front Fog Lights:</label>
+            <input type="number" name="is_front_fog_lights" required>
+        </div>
+        <div>
+            <label for="is_rear_window_wiper">Is Rear Window Wiper:</label>
+            <input type="number" name="is_rear_window_wiper" required>
+        </div>
+        <div>
+            <label for="is_rear_window_washer">Is Rear Window Washer:</label>
+            <input type="number" name="is_rear_window_washer" required>
+        </div>
+        <div>
+            <label for="is_rear_window_defogger">Is Rear Window Defogger:</label>
+            <input type="number" name="is_rear_window_defogger" required>
+        </div>
+        <div>
+            <label for="is_brake_assist">Is Brake Assist:</label>
+            <input type="number" name="is_brake_assist" required>
+        </div>
+        <div>
+            <label for="is_power_door_locks">Is Power Door Locks:</label>
+            <input type="number" name="is_power_door_locks" required>
+        </div>
+        <div>
+            <label for="is_central_locking">Is Central Locking:</label>
+            <input type="number" name="is_central_locking" required>
+        </div>
+        <div>
+            <label for="is_power_steering">Is Power Steering:</label>
+            <input type="number" name="is_power_steering" required>
+        </div>
+        <div>
+            <label for="is_driver_seat_height_adjustable">Is Driver Seat Height Adjustable:</label>
+            <input type="number" name="is_driver_seat_height_adjustable" required>
+        </div>
+        <div>
+            <label for="is_day_night_rear_view_mirror">Is Day/Night Rear View Mirror:</label>
+            <input type="number" name="is_day_night_rear_view_mirror" required>
+        </div>
+        <div>
+            <label for="is_ecw">Is ECW:</label>
+            <input type="number" name="is_ecw" required>
+        </div>
+        <div>
+            <label for="is_speed_alert">Is Speed Alert:</label>
+            <input type="number" name="is_speed_alert" required>
+        </div>
+        <div>
+            <label for="ncap_rating">NCAP Rating:</label>
+            <input type="number" name="ncap_rating" required>
+        </div>
+
+        <input type="submit" value="Predict">
+    </form>
+</body>
+</html>
